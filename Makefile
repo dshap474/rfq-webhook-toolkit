@@ -16,6 +16,9 @@ prepare-tests:
 run-acceptance-tests:
 	cd tests && pnpm run acceptance
 
+run-simulation-tests:
+	cd tests && pnpm run simulation
+
 # run acceptance tests with the example server
 run-acceptance-tests-against-sample-server:
 	@echo "Running acceptance tests with the example server" && \
